@@ -1,0 +1,195 @@
+/* Full page */
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8fafc;
+  padding: 20px;
+}
+
+
+/* Login Box */
+
+.login-box {
+  width: 400px;
+  background: white;
+  padding: 42px 36px;
+  border-radius: 12px;
+
+  box-shadow:
+    0 10px 30px rgba(15, 23, 42, 0.08);
+
+  text-align: center;
+}
+
+
+/* Logo */
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+
+  font-size: 40px;
+  color: #10213f;
+  margin-bottom: 25px;
+}
+
+
+.logo-icon {
+  width: 48px;
+  height: 48px;
+
+  background: #10213f;
+  color: white;
+
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 28px;
+}
+
+
+/* Login Heading */
+
+.login-box h1 {
+  margin: 0;
+  font-size: 26px;
+  color: #10213f;
+}
+
+
+/* Welcome text */
+
+.welcome {
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+  color: #64748b;
+  font-size: 16px;
+}
+
+
+/* Input */
+
+.input-box {
+  height: 52px;
+
+  border: 1px solid #d8dee8;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 22px;
+
+  padding: 0 15px;
+
+  background: white;
+}
+
+
+.input-box:focus-within {
+  border-color: #3578f6;
+}
+
+
+.input-icon {
+  color: #64748b;
+  font-size: 21px;
+  width: 35px;
+}
+
+
+.input-box input {
+  border: none;
+  outline: none;
+
+  flex: 1;
+
+  font-size: 16px;
+  color: #334155;
+}
+
+
+.input-box input::placeholder {
+  color: #94a3b8;
+}
+
+
+/* Eye button */
+
+.eye-button {
+  border: none;
+  background: transparent;
+
+  cursor: pointer;
+
+  font-size: 20px;
+  color: #64748b;
+}
+
+
+/* Login Button */
+
+.login-button {
+  width: 100%;
+  height: 50px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #3278f5;
+  color: white;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  margin-top: 2px;
+}
+
+
+.login-button:hover {
+  background: #2563eb;
+}
+
+
+/* Sign Up */
+
+.signup {
+  margin-top: 28px;
+
+  color: #64748b;
+  font-size: 15px;
+}
+
+
+.signup span {
+  color: #2563eb;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+  .login-box {
+    width: 100%;
+    padding: 35px 25px;
+  }
+
+  .logo {
+    font-size: 34px;
+  }
+
+}

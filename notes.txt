@@ -1,0 +1,3 @@
+"use client" → (Button click, useState, useEffect,Form interaction)page/component-ஐ interactive-ஆக வேலை செய்ய உதவும்.
+useState = value-ஐ வைத்திருந்து, தேவைப்படும்போது மாற்ற உதவும்.
+
